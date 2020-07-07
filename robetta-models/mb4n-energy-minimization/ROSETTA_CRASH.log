@@ -1,0 +1,242 @@
+##############################################################################################################
+#
+# Rosetta crash log. Please submit the contents of this file to http://crash.rosettacommons.org/
+# or use the script Rosetta/main/source/scripts/python/public/report_crashes.py
+#
+
+[START_CRASH_REPORT]
+[ROSETTA_VERSION]: 2020.08+release.cb1cabafd74
+[COMMIT_DATE]: 2020-02-22T06:57:31.821199
+[APPLICATION]: UNKNOWN APPLICATION
+[MODE]: Release
+[EXTRAS]: default
+[OS]: Apple Mac OS X
+[COMPILER]: Clang version "11.0.3 (clang-1103.0.32.62)"
+[STDLIB]: libc++ version 9000
+[START_OPTIONS]
+NO OPTIONS SPECIFIED
+
+[END_OPTIONS]
+
+[START_BACKTRACE]: RAW_LIBC
+0   libutility.dylib                    0x0000000115703bc0 backtrace_string(int) + 80
+1   libutility.dylib                    0x0000000115703af6 utility::excn::Exception::Exception(char const*, int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&) + 198
+2   libutility.dylib                    0x000000011567de91 utility::options::OptionCollection::load(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::list<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >&, bool) + 2465
+3   libutility.dylib                    0x000000011567eadf utility::options::OptionCollection::load(int, char* const*, bool) + 591
+4   libcore.6.dylib                     0x0000000111f523d0 core::init::init(int, char**) + 48
+5   score.default.macosclangrelease     0x000000010bcb5fe6 main + 470
+6   libdyld.dylib                       0x00007fff70b47cc9 start + 1
+
+[END_BACKTRACE]
+
+[FILE]: src/utility/options/OptionCollection.cc
+[LINE]: 315
+[START_MESSAGE]
+ERROR: Unused "free" argument specified: full_model_30643_1.pdb
+
+[END_MESSAGE]
+[END_CRASH_REPORT]
+
+##############################################################################################################
+#
+# Rosetta crash log. Please submit the contents of this file to http://crash.rosettacommons.org/
+# or use the script Rosetta/main/source/scripts/python/public/report_crashes.py
+#
+
+[START_CRASH_REPORT]
+[ROSETTA_VERSION]: 2020.08+release.cb1cabafd74
+[COMMIT_DATE]: 2020-02-22T06:57:31.821199
+[APPLICATION]: UNKNOWN APPLICATION
+[MODE]: Release
+[EXTRAS]: default
+[OS]: Apple Mac OS X
+[COMPILER]: Clang version "11.0.3 (clang-1103.0.32.62)"
+[STDLIB]: libc++ version 9000
+[START_OPTIONS]
+NO OPTIONS SPECIFIED
+
+[END_OPTIONS]
+
+[START_BACKTRACE]: RAW_LIBC
+0   libutility.dylib                    0x000000011498abc0 backtrace_string(int) + 80
+1   libutility.dylib                    0x000000011498aaf6 utility::excn::Exception::Exception(char const*, int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&) + 198
+2   libutility.dylib                    0x0000000114904e91 utility::options::OptionCollection::load(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::list<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >&, bool) + 2465
+3   libutility.dylib                    0x0000000114905adf utility::options::OptionCollection::load(int, char* const*, bool) + 591
+4   libcore.6.dylib                     0x00000001111bf3d0 core::init::init(int, char**) + 48
+5   score.default.macosclangrelease     0x000000010b07dfe6 main + 470
+6   libdyld.dylib                       0x00007fff70b47cc9 start + 1
+
+[END_BACKTRACE]
+
+[FILE]: src/utility/options/OptionCollection.cc
+[LINE]: 315
+[START_MESSAGE]
+ERROR: Unused "free" argument specified: mb4n.pdb
+
+[END_MESSAGE]
+[END_CRASH_REPORT]
+
+##############################################################################################################
+#
+# Rosetta crash log. Please submit the contents of this file to http://crash.rosettacommons.org/
+# or use the script Rosetta/main/source/scripts/python/public/report_crashes.py
+#
+
+[START_CRASH_REPORT]
+[ROSETTA_VERSION]: 2020.08+release.cb1cabafd74
+[COMMIT_DATE]: 2020-02-22T06:57:31.821199
+[APPLICATION]: UNKNOWN APPLICATION
+[MODE]: Release
+[EXTRAS]: default
+[OS]: Apple Mac OS X
+[COMPILER]: Clang version "11.0.3 (clang-1103.0.32.62)"
+[STDLIB]: libc++ version 9000
+[START_OPTIONS]
+NO OPTIONS SPECIFIED
+
+[END_OPTIONS]
+
+[START_BACKTRACE]: RAW_LIBC
+0   libutility.dylib                    0x000000011243ebc0 backtrace_string(int) + 80
+1   libutility.dylib                    0x000000011243eaf6 utility::excn::Exception::Exception(char const*, int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&) + 198
+2   libutility.dylib                    0x00000001123b8e91 utility::options::OptionCollection::load(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::list<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >&, bool) + 2465
+3   libutility.dylib                    0x00000001123b9adf utility::options::OptionCollection::load(int, char* const*, bool) + 591
+4   libcore.6.dylib                     0x000000010ec6a3d0 core::init::init(int, char**) + 48
+5   score.default.macosclangrelease     0x0000000108b22fe6 main + 470
+6   libdyld.dylib                       0x00007fff70b47cc9 start + 1
+
+[END_BACKTRACE]
+
+[FILE]: src/utility/options/OptionCollection.cc
+[LINE]: 315
+[START_MESSAGE]
+ERROR: Unused "free" argument specified: 3hon.pdb
+
+[END_MESSAGE]
+[END_CRASH_REPORT]
+
+##############################################################################################################
+#
+# Rosetta crash log. Please submit the contents of this file to http://crash.rosettacommons.org/
+# or use the script Rosetta/main/source/scripts/python/public/report_crashes.py
+#
+
+[START_CRASH_REPORT]
+[ROSETTA_VERSION]: 2020.08+release.cb1cabafd74
+[COMMIT_DATE]: 2020-02-22T06:57:31.821199
+[APPLICATION]: UNKNOWN APPLICATION
+[MODE]: Release
+[EXTRAS]: default
+[OS]: Apple Mac OS X
+[COMPILER]: Clang version "11.0.3 (clang-1103.0.32.62)"
+[STDLIB]: libc++ version 9000
+[START_OPTIONS]
+NO OPTIONS SPECIFIED
+
+[END_OPTIONS]
+
+[START_BACKTRACE]: RAW_LIBC
+0   libutility.dylib                    0x000000010e9e1bc0 backtrace_string(int) + 80
+1   libutility.dylib                    0x000000010e9e1af6 utility::excn::Exception::Exception(char const*, int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&) + 198
+2   libutility.dylib                    0x000000010e95be91 utility::options::OptionCollection::load(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::list<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >&, bool) + 2465
+3   libutility.dylib                    0x000000010e95cadf utility::options::OptionCollection::load(int, char* const*, bool) + 591
+4   libcore.6.dylib                     0x00000001098193d0 core::init::init(int, char**) + 48
+5   score.default.macosclangrelease     0x0000000104f73fe6 main + 470
+6   libdyld.dylib                       0x00007fff70b47cc9 start + 1
+
+[END_BACKTRACE]
+
+[FILE]: src/utility/options/OptionCollection.cc
+[LINE]: 315
+[START_MESSAGE]
+ERROR: Unused "free" argument specified: 3hon.pdb
+
+[END_MESSAGE]
+[END_CRASH_REPORT]
+
+##############################################################################################################
+#
+# Rosetta crash log. Please submit the contents of this file to http://crash.rosettacommons.org/
+# or use the script Rosetta/main/source/scripts/python/public/report_crashes.py
+#
+
+[START_CRASH_REPORT]
+[ROSETTA_VERSION]: 2020.08+release.cb1cabafd74
+[COMMIT_DATE]: 2020-02-22T06:57:31.821199
+[APPLICATION]: UNKNOWN APPLICATION
+[MODE]: Release
+[EXTRAS]: default
+[OS]: Apple Mac OS X
+[COMPILER]: Clang version "11.0.3 (clang-1103.0.32.62)"
+[STDLIB]: libc++ version 9000
+[START_OPTIONS]
+NO OPTIONS SPECIFIED
+
+[END_OPTIONS]
+
+[START_BACKTRACE]: RAW_LIBC
+0   libutility.dylib                    0x00000001186d4bc0 backtrace_string(int) + 80
+1   libutility.dylib                    0x00000001186d4af6 utility::excn::Exception::Exception(char const*, int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&) + 198
+2   libutility.dylib                    0x000000011864ee91 utility::options::OptionCollection::load(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::list<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >&, bool) + 2465
+3   libutility.dylib                    0x000000011864fadf utility::options::OptionCollection::load(int, char* const*, bool) + 591
+4   libcore.6.dylib                     0x0000000114efe3d0 core::init::init(int, char**) + 48
+5   score.default.macosclangrelease     0x000000010edcffe6 main + 470
+6   libdyld.dylib                       0x00007fff70b47cc9 start + 1
+7   ???                                 0x0000000000000002 0x0 + 2
+
+[END_BACKTRACE]
+
+[FILE]: src/utility/options/OptionCollection.cc
+[LINE]: 315
+[START_MESSAGE]
+ERROR: Unused "free" argument specified: 3hon.pdb
+
+[END_MESSAGE]
+[END_CRASH_REPORT]
+
+##############################################################################################################
+#
+# Rosetta crash log. Please submit the contents of this file to http://crash.rosettacommons.org/
+# or use the script Rosetta/main/source/scripts/python/public/report_crashes.py
+#
+
+[START_CRASH_REPORT]
+[ROSETTA_VERSION]: 2020.08+release.cb1cabafd74
+[COMMIT_DATE]: 2020-02-22T06:57:31.821199
+[APPLICATION]: score.default.macosclangrelease
+[MODE]: Release
+[EXTRAS]: default
+[OS]: Apple Mac OS X
+[COMPILER]: Clang version "11.0.3 (clang-1103.0.32.62)"
+[STDLIB]: libc++ version 9000
+[START_OPTIONS]
+ -in:file:s=full_model_306043_1.pdb
+
+[END_OPTIONS]
+
+[START_BACKTRACE]: RAW_LIBC
+0   libutility.dylib                    0x0000000112ab2bc0 backtrace_string(int) + 80
+1   libutility.dylib                    0x0000000112ab2af6 utility::excn::Exception::Exception(char const*, int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&) + 198
+2   libutility.dylib                    0x0000000112b6b4d0 utility::UtilityExitException::UtilityExitException(char const*, int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&) + 112
+3   libutility.dylib                    0x0000000112b6b3c7 utility::exit(char const*, int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, int) + 55
+4   libcore.6.dylib                     0x000000010f241c11 core::import_pose::pose_from_file(core::pose::Pose&, core::chemical::ResidueTypeSet const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, core::import_pose::ImportPoseOptions const&, bool, core::import_pose::FileType) + 3553
+5   libcore.6.dylib                     0x000000010f2403b5 core::import_pose::pose_from_file(core::pose::Pose&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, core::import_pose::ImportPoseOptions const&, bool, core::import_pose::FileType) + 85
+6   libcore.6.dylib                     0x000000010f23ec93 core::import_pose::pose_from_file(core::pose::Pose&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool, core::import_pose::FileType) + 67
+7   libprotocols.1.dylib                0x000000010ebe1e3e protocols::jobdist::universal_main(protocols::moves::Mover&, float) + 23102
+8   score.default.macosclangrelease     0x00000001091b2d9e main + 12174
+9   libdyld.dylib                       0x00007fff70b47cc9 start + 1
+10  ???                                 0x0000000000000003 0x0 + 3
+
+[END_BACKTRACE]
+
+[FILE]: src/core/import_pose/import_pose.cc
+[LINE]: 362
+[START_MESSAGE]
+[ ERROR ] UtilityExitException
+ERROR: Cannot open file "full_model_306043_1.pdb"
+
+
+
+[END_MESSAGE]
+[END_CRASH_REPORT]
+
