@@ -1,0 +1,10 @@
+# make movie for Mb4n #4...
+mset 1x120               # first state, 120 times.
+util.mroll(1,120,1)      # issues mdo command to create full rotation.
+set ray_trace_frames=1   # ON: ray tracing makes movies nicer!
+set cache_frames=0       # OFF: movie frame not stored in RAM
+mclear                   # clears movie frame image cache
+viewport 640,640         # Instagram size
+mpng myMovMb4nV4
+
+

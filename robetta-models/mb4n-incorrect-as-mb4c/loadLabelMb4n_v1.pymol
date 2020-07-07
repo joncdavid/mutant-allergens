@@ -1,0 +1,48 @@
+load full_model_29497_1.pdb, mb4nv1
+hide all
+show cartoon
+select nterm, resi 1-3
+select cterm, resi 150-153
+select aaloop, resi 46-47
+select ep1, resi 160-170
+select ep2, resi 177-187
+select ep3, resi 194-204
+select ep4, resi 211-221
+color gray, all
+color blue, nterm
+color red, cterm
+color yellow, ep1
+color yellow, ep2
+color yellow, ep3
+color yellow, ep4
+color green, aaloop
+centerofmass mb4nv1
+centerofmass nterm
+centerofmass cterm
+centerofmass aaloop
+centerofmass ep1
+centerofmass ep2
+centerofmass ep3
+centerofmass ep4
+pseudoatom pnterm, pos=[2.499, 9.670, 15.159]
+pseudoatom pcterm, pos=[27.156, 21.346, 14.965]
+pseudoatom paaloop, pos=[17.575, 41.694, 14.141]
+pseudoatom pep1, pos=[27.666, 23.193, 29.080]
+pseudoatom pep2, pos=[34.505, 13.160, 20.701]
+pseudoatom pep3, pos=[37.937, 21.240, 26.826]
+pseudoatom pep4, pos=[24.888, 9.533, 28.985]
+set sphere_scale, 1, pnterm
+set sphere_scale, 1, pcterm
+set sphere_scale, 1, paaloop
+set sphere_scale, 1, pep1
+set sphere_scale, 1, pep2
+set sphere_scale, 1, pep3
+set sphere_scale, 1, pep4
+show spheres, pnterm
+show spheres, pcterm
+show spheres, paaloop
+show spheres, pep1
+show spheres, pep2
+show spheres, pep3
+show spheres, pep4
+
