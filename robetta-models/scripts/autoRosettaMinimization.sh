@@ -32,5 +32,6 @@ echo "inpdbBasename: ${inpdbBasename}"
 echo "defaultOutPDB: ${defaultOutPDB}"
 
 minimize.default.macosclangrelease -overwrite -s $inPDB -run:min_type lbfgs_armijo_nonmonotone -run:min_tolerance 0.001
-mv score.sc $outScore
+rm score.sc  ## this will be taken care of in autoRosettaScoring
+             ## was... #mv score.sc $outScore
 mv $defaultOutPDB $outPDB
