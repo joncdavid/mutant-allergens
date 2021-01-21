@@ -1,0 +1,42 @@
+* mb2n1c (twice minimized (Robetta then chimera))
+** mb2n1cv1
++ input file: full_model_49921_1_0001.pdb
++ output file: mb2n1cv1_min2_roschi.pdb
++ Potential energy: -10901.506294
++ Gradient norm: 103.099608
++ Updated 2975 atoms.
++ RMSD: 0.112375
+
+** mb2n1cv2
++ input file: full_model_49921_2_0001.pdb
++ output file: mb2n1cv2_min2_roschi.pdb
++ Potential energy: -10661.113235
++ Gradient norm: 105.756020
++ Updated 2975 atoms.
++ RMSD: 0.109525
+
+** mb2n1cv3
++ input file: full_model_49921_3_0001.pdb
++ output file: mb2n1cv3_min2_roschi.pdb
++ Potential energy: -10910.637136
++ Gradient norm: 99.396769
++ Updated 2976 atoms.
++ RMSD: 0.101675
+
+
+** mb2n1cv4
++ input file: full_model_49921_4_0001.pdb
++ output file: mb2n1cv4_min2_roschi.pdb
++ Potential energy: -10498.405302
++ Gradient norm: 115.507832
++ Updated 2975 atoms.
++ RMSD: 0.112344
+
+
+** mb2n1cv5
++ input file: full_model_49921_5_0001.pdb
++ output file: mb2n1cv5_min2_roschi.pdb
++ Potential energy: -9096.678733
++ Gradient norm: 120.878454
++ Updated 2976 atoms.
++ RMSD: 0.119349

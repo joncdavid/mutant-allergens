@@ -1,0 +1,210 @@
+##############################################################################################################
+#
+# Rosetta crash log. Please submit the contents of this file to http://crash.rosettacommons.org/
+# or use the script Rosetta/main/source/scripts/python/public/report_crashes.py
+#
+
+[START_CRASH_REPORT]
+[ROSETTA_VERSION]: 2020.08+release.cb1cabafd74
+[COMMIT_DATE]: 2020-02-22T06:57:31.821199
+[APPLICATION]: minimize.default.macosclangrelease
+[MODE]: Release
+[EXTRAS]: default
+[OS]: Apple Mac OS X
+[COMPILER]: Clang version "11.0.3 (clang-1103.0.32.62)"
+[STDLIB]: libc++ version 9000
+[START_OPTIONS]
+ -out:overwrite
+
+[END_OPTIONS]
+
+[START_BACKTRACE]: RAW_LIBC
+1   libutility.dylib                    0x0000000109c1e4e7 utility::signal_handler(int) + 183
+2   libsystem_platform.dylib            0x00007fff20399d7d _sigtramp + 29
+3   ???                                 0x000000000000ffff 0x0 + 65535
+4   libcore.5.dylib                     0x000000010662c352 core::optimization::AtomTreeMinimizer::run(core::pose::Pose&, core::kinematics::MoveMap const&, core::scoring::ScoreFunction const&, core::optimization::MinimizerOptions const&) + 530
+5   minimize.default.macosclangrelease  0x000000010025f396 Minimize::apply(core::pose::Pose&) + 2086
+6   libprotocols.1.dylib                0x0000000105e46289 protocols::jd2::JobDistributor::run_one_job(std::__1::shared_ptr<protocols::moves::Mover>&, long, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&, unsigned long&, unsigned long&, bool) + 7529
+7   libprotocols.1.dylib                0x0000000105e43882 protocols::jd2::JobDistributor::go_main(std::__1::shared_ptr<protocols::moves::Mover>) + 194
+8   libprotocols.1.dylib                0x0000000105e3eaa2 protocols::jd2::FileSystemJobDistributor::go(std::__1::shared_ptr<protocols::moves::Mover>) + 66
+9   minimize.default.macosclangrelease  0x00000001002600e1 main + 241
+10  libdyld.dylib                       0x00007fff20370621 start + 1
+
+[END_BACKTRACE]
+
+[FILE]: SIGSEGV
+[LINE]: 11
+[START_MESSAGE]
+Segmentation Fault
+
+[END_MESSAGE]
+[END_CRASH_REPORT]
+
+##############################################################################################################
+#
+# Rosetta crash log. Please submit the contents of this file to http://crash.rosettacommons.org/
+# or use the script Rosetta/main/source/scripts/python/public/report_crashes.py
+#
+
+[START_CRASH_REPORT]
+[ROSETTA_VERSION]: 2020.08+release.cb1cabafd74
+[COMMIT_DATE]: 2020-02-22T06:57:31.821199
+[APPLICATION]: minimize.default.macosclangrelease
+[MODE]: Release
+[EXTRAS]: default
+[OS]: Apple Mac OS X
+[COMPILER]: Clang version "11.0.3 (clang-1103.0.32.62)"
+[STDLIB]: libc++ version 9000
+[START_OPTIONS]
+ -out:overwrite
+
+[END_OPTIONS]
+
+[START_BACKTRACE]: RAW_LIBC
+1   libutility.dylib                    0x000000010cd6c4e7 utility::signal_handler(int) + 183
+2   libsystem_platform.dylib            0x00007fff20399d7d _sigtramp + 29
+3   ???                                 0x000000000000ffff 0x0 + 65535
+4   libcore.5.dylib                     0x000000010977e352 core::optimization::AtomTreeMinimizer::run(core::pose::Pose&, core::kinematics::MoveMap const&, core::scoring::ScoreFunction const&, core::optimization::MinimizerOptions const&) + 530
+5   minimize.default.macosclangrelease  0x00000001033ca396 Minimize::apply(core::pose::Pose&) + 2086
+6   libprotocols.1.dylib                0x0000000108f9c289 protocols::jd2::JobDistributor::run_one_job(std::__1::shared_ptr<protocols::moves::Mover>&, long, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&, unsigned long&, unsigned long&, bool) + 7529
+7   libprotocols.1.dylib                0x0000000108f99882 protocols::jd2::JobDistributor::go_main(std::__1::shared_ptr<protocols::moves::Mover>) + 194
+8   libprotocols.1.dylib                0x0000000108f94aa2 protocols::jd2::FileSystemJobDistributor::go(std::__1::shared_ptr<protocols::moves::Mover>) + 66
+9   minimize.default.macosclangrelease  0x00000001033cb0e1 main + 241
+10  libdyld.dylib                       0x00007fff20370621 start + 1
+
+[END_BACKTRACE]
+
+[FILE]: SIGSEGV
+[LINE]: 11
+[START_MESSAGE]
+Segmentation Fault
+
+[END_MESSAGE]
+[END_CRASH_REPORT]
+
+##############################################################################################################
+#
+# Rosetta crash log. Please submit the contents of this file to http://crash.rosettacommons.org/
+# or use the script Rosetta/main/source/scripts/python/public/report_crashes.py
+#
+
+[START_CRASH_REPORT]
+[ROSETTA_VERSION]: 2020.08+release.cb1cabafd74
+[COMMIT_DATE]: 2020-02-22T06:57:31.821199
+[APPLICATION]: minimize.default.macosclangrelease
+[MODE]: Release
+[EXTRAS]: default
+[OS]: Apple Mac OS X
+[COMPILER]: Clang version "11.0.3 (clang-1103.0.32.62)"
+[STDLIB]: libc++ version 9000
+[START_OPTIONS]
+ -out:overwrite
+
+[END_OPTIONS]
+
+[START_BACKTRACE]: RAW_LIBC
+1   libutility.dylib                    0x0000000109f6e4e7 utility::signal_handler(int) + 183
+2   libsystem_platform.dylib            0x00007fff20399d7d _sigtramp + 29
+3   ???                                 0x000000000000ffff 0x0 + 65535
+4   libcore.5.dylib                     0x00000001066df352 core::optimization::AtomTreeMinimizer::run(core::pose::Pose&, core::kinematics::MoveMap const&, core::scoring::ScoreFunction const&, core::optimization::MinimizerOptions const&) + 530
+5   minimize.default.macosclangrelease  0x000000010031f396 Minimize::apply(core::pose::Pose&) + 2086
+6   libprotocols.1.dylib                0x0000000105f01289 protocols::jd2::JobDistributor::run_one_job(std::__1::shared_ptr<protocols::moves::Mover>&, long, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&, unsigned long&, unsigned long&, bool) + 7529
+7   libprotocols.1.dylib                0x0000000105efe882 protocols::jd2::JobDistributor::go_main(std::__1::shared_ptr<protocols::moves::Mover>) + 194
+8   libprotocols.1.dylib                0x0000000105ef9aa2 protocols::jd2::FileSystemJobDistributor::go(std::__1::shared_ptr<protocols::moves::Mover>) + 66
+9   minimize.default.macosclangrelease  0x00000001003200e1 main + 241
+10  libdyld.dylib                       0x00007fff20370621 start + 1
+
+[END_BACKTRACE]
+
+[FILE]: SIGSEGV
+[LINE]: 11
+[START_MESSAGE]
+Segmentation Fault
+
+[END_MESSAGE]
+[END_CRASH_REPORT]
+
+##############################################################################################################
+#
+# Rosetta crash log. Please submit the contents of this file to http://crash.rosettacommons.org/
+# or use the script Rosetta/main/source/scripts/python/public/report_crashes.py
+#
+
+[START_CRASH_REPORT]
+[ROSETTA_VERSION]: 2020.08+release.cb1cabafd74
+[COMMIT_DATE]: 2020-02-22T06:57:31.821199
+[APPLICATION]: minimize.default.macosclangrelease
+[MODE]: Release
+[EXTRAS]: default
+[OS]: Apple Mac OS X
+[COMPILER]: Clang version "11.0.3 (clang-1103.0.32.62)"
+[STDLIB]: libc++ version 9000
+[START_OPTIONS]
+ -out:overwrite
+
+[END_OPTIONS]
+
+[START_BACKTRACE]: RAW_LIBC
+1   libutility.dylib                    0x00000001175024e7 utility::signal_handler(int) + 183
+2   libsystem_platform.dylib            0x00007fff20399d7d _sigtramp + 29
+3   ???                                 0x000000000000ffff 0x0 + 65535
+4   libcore.5.dylib                     0x0000000113f09352 core::optimization::AtomTreeMinimizer::run(core::pose::Pose&, core::kinematics::MoveMap const&, core::scoring::ScoreFunction const&, core::optimization::MinimizerOptions const&) + 530
+5   minimize.default.macosclangrelease  0x000000010db57396 Minimize::apply(core::pose::Pose&) + 2086
+6   libprotocols.1.dylib                0x0000000113726289 protocols::jd2::JobDistributor::run_one_job(std::__1::shared_ptr<protocols::moves::Mover>&, long, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&, unsigned long&, unsigned long&, bool) + 7529
+7   libprotocols.1.dylib                0x0000000113723882 protocols::jd2::JobDistributor::go_main(std::__1::shared_ptr<protocols::moves::Mover>) + 194
+8   libprotocols.1.dylib                0x000000011371eaa2 protocols::jd2::FileSystemJobDistributor::go(std::__1::shared_ptr<protocols::moves::Mover>) + 66
+9   minimize.default.macosclangrelease  0x000000010db580e1 main + 241
+10  libdyld.dylib                       0x00007fff20370621 start + 1
+
+[END_BACKTRACE]
+
+[FILE]: SIGSEGV
+[LINE]: 11
+[START_MESSAGE]
+Segmentation Fault
+
+[END_MESSAGE]
+[END_CRASH_REPORT]
+
+##############################################################################################################
+#
+# Rosetta crash log. Please submit the contents of this file to http://crash.rosettacommons.org/
+# or use the script Rosetta/main/source/scripts/python/public/report_crashes.py
+#
+
+[START_CRASH_REPORT]
+[ROSETTA_VERSION]: 2020.08+release.cb1cabafd74
+[COMMIT_DATE]: 2020-02-22T06:57:31.821199
+[APPLICATION]: minimize.default.macosclangrelease
+[MODE]: Release
+[EXTRAS]: default
+[OS]: Apple Mac OS X
+[COMPILER]: Clang version "11.0.3 (clang-1103.0.32.62)"
+[STDLIB]: libc++ version 9000
+[START_OPTIONS]
+ -out:overwrite
+
+[END_OPTIONS]
+
+[START_BACKTRACE]: RAW_LIBC
+1   libutility.dylib                    0x00000001199264e7 utility::signal_handler(int) + 183
+2   libsystem_platform.dylib            0x00007fff20399d7d _sigtramp + 29
+3   ???                                 0x000000000000ffff 0x0 + 65535
+4   libcore.5.dylib                     0x000000011633b352 core::optimization::AtomTreeMinimizer::run(core::pose::Pose&, core::kinematics::MoveMap const&, core::scoring::ScoreFunction const&, core::optimization::MinimizerOptions const&) + 530
+5   minimize.default.macosclangrelease  0x000000010ff7a396 Minimize::apply(core::pose::Pose&) + 2086
+6   libprotocols.1.dylib                0x0000000115b5c289 protocols::jd2::JobDistributor::run_one_job(std::__1::shared_ptr<protocols::moves::Mover>&, long, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&, unsigned long&, unsigned long&, bool) + 7529
+7   libprotocols.1.dylib                0x0000000115b59882 protocols::jd2::JobDistributor::go_main(std::__1::shared_ptr<protocols::moves::Mover>) + 194
+8   libprotocols.1.dylib                0x0000000115b54aa2 protocols::jd2::FileSystemJobDistributor::go(std::__1::shared_ptr<protocols::moves::Mover>) + 66
+9   minimize.default.macosclangrelease  0x000000010ff7b0e1 main + 241
+10  libdyld.dylib                       0x00007fff20370621 start + 1
+
+[END_BACKTRACE]
+
+[FILE]: SIGSEGV
+[LINE]: 11
+[START_MESSAGE]
+Segmentation Fault
+
+[END_MESSAGE]
+[END_CRASH_REPORT]
+
