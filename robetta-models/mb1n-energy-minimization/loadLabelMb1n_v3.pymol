@@ -1,0 +1,19 @@
+load mb1nv3_min2_roschi.pdb, mb1n
+hide all
+show cartoon
+select nterm, resi 12-14
+select cterm, resi 161-164
+select aaloop, resi 57-58
+select ep1, resi 1-11
+color gray, all
+color blue, nterm
+color red, cterm
+color yellow, ep1
+color green, aaloop
+centerofmass mb1n
+centerofmass nterm
+centerofmass cterm
+centerofmass aaloop
+centerofmass ep1
+get_area ep1
+show surface

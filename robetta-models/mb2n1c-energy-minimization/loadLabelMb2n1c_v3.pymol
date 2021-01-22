@@ -1,0 +1,29 @@
+load mb2n1cv3_min2_roschi.pdb, mb1n1c
+hide all
+show cartoon
+select nterm, resi 29-31
+select cterm, resi 178-181
+select aaloop, resi 74-75
+select ep1, resi 1-11
+select ep2, resi 18-28
+select ep3, resi 188-198
+select hexhist, resi 182-187
+color gray, all
+color blue, nterm
+color red, cterm
+color yellow, ep1
+color yelloworange, ep2
+color orange, ep3
+color green, aaloop
+color purple, hexhist
+centerofmass mb1n1c
+centerofmass nterm
+centerofmass cterm
+centerofmass aaloop
+centerofmass ep1
+centerofmass ep2
+centerofmass ep3
+get_area ep1
+get_area ep2
+get_area ep3
+show surface
