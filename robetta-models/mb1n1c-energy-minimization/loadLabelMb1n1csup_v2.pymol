@@ -1,0 +1,26 @@
+load mb1n1csup_2.pdb, mb1n1c
+hide all
+show cartoon
+select nterm, resi 12-14
+select cterm, resi 161-164
+select aaloop, resi 57-58
+select ep1, resi 1-11
+select ep2, resi 165-175
+select hexhist, resi 17-181
+color gray, all
+color blue, nterm
+color red, cterm
+color yellow, ep1
+color yelloworange, ep2
+color green, aaloop
+color purple, hexhist
+centerofmass mb1n1c
+centerofmass nterm
+centerofmass cterm
+centerofmass aaloop
+centerofmass ep1
+centerofmass ep2
+get_area ep1
+get_area ep2
+show surface
+deselect

@@ -1,0 +1,34 @@
+load mb1n1csupv1_min2_roschi.pdb, mb1n1c
+hide all
+show cartoon
+select nterm, resi 12-14
+select cterm, resi 161-164
+select aaloop, resi 57-58
+select ep1, resi 1-11
+select ep2, resi 164-170
+select hexhist, resi 171-181
+color gray, all
+color blue, nterm
+color red, cterm
+color yellow, ep1
+color yelloworange, ep2
+color green, aaloop
+color purple, hexhist
+centerofmass mb1n1c
+centerofmass nterm
+centerofmass cterm
+centerofmass aaloop
+centerofmass ep1
+centerofmass ep2
+get_area ep1
+get_area ep2
+
+centerofmass
+translate [-9.42136, -16.2595, -15.0387], mb1n1c
+centerofmass
+center
+
+show surface
+deselect
+
+save mb1n1csupv1_min2_roschi.cent.pdb, mb1n1c
