@@ -2,12 +2,13 @@
 ** residues
 + ep1 (11 residues) :: 1-11
 + myoglobin-part-a :: 12-57
-  + nterm (3 residues) :: 58-60
+  + nterm (3 residues) :: 12-14
   + aaloop-start (1 residue) :: 57
 + ep2 (11 residues) :: 58-68
 + myoglobin-part-b :: 69-175
   + aaloop-end (1 residue) :: 69
   + cterm (4 residues) :: 172-175
++ hexhistidine (6 residues) :: 176-181
 
 ** mb1n1av1
 + input file: full_model_49923_1_0001.pdb

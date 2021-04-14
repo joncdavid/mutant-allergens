@@ -1,0 +1,42 @@
+* mb1n1asup (twice minimized (Rosetta then Chimera))
+** residues
+
+** mb1n1csupv1
++ input file: mb1n1asup_1_0001.pdb
++ output file: mb1n1asupv1_min2_roschi.pdb
++ Potential energy: -10313.423215
++ Gradient norm: 94.747753
++ Updated 2794 atoms
++ RMSD: 0.097623
+
+** mb1n1asupv2
++ input file: mb1n1asup_2_0001.pdb
++ output file: mb1n1asupv2_min2_roschi.pdb
++ Potential energy: -10220.405429
++ Gradient norm: 125.211083
++ Updated 2795 atoms.
++ RMSD: 0.114474
+
+** mb1n1asupv3
++ input file: mb1n1asup_3_0001.pdb
++ output file: mb1n1asupv3_min2_roschi.pdb
++ Potential energy: -10327.073206
++ Gradient norm: 98.302264
++ Updated 2794 atoms.
++ RMSD: 0.105472
+
+** mb1n1asupv4
++ input file: mb1n1asup_4_0001.pdb
++ output file: mb1n1asupv4_min2_roschi.pdb
++ Potential energy: -10293.951971
++ Gradient norm: 91.389740
++ Updated 2793 atoms.
++ RMSD: 0.127578
+
+** mb1n1asupv5
++ input file: mb1n1asup_5_0001.pdb
++ output file: mb1n1asupv5_min2_roschi.pdb
++ Potential energy: -10004.700779
++ Gradient norm: 86.147909
++ Updated 2795 atoms.
++ RMSD: 0.117356
