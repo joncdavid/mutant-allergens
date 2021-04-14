@@ -1,0 +1,30 @@
+load mb2nsupv3_min2_roschi.pdb, mb2n
+hide all
+show cartoon
+select nterm, resi 29-31
+select cterm, resi 178-181
+select aaloop, resi 74 or resi 75
+select ep1, resi 1-11
+select spacer, resi 12-17
+select ep2, resi 18-28
+select hexhist, resi 182-187
+color gray, all
+color blue, nterm
+color red, cterm
+color yellow, ep1
+color yelloworange, ep2
+color green, aaloop
+color purple, hexhist
+color pink, spacer
+centerofmass mb2n
+centerofmass nterm
+centerofmass cterm
+centerofmass aaloop
+centerofmass ep1
+centerofmass spacer
+centerofmass ep2
+centerofmass hexhist
+get_area ep1
+get_area ep2
+show surface
+deselect
