@@ -1,0 +1,53 @@
+* mb2n (twice minimized (Robetta then chimera))
+** residues
++ ep1 (11 residues) :: 1-11
++ spacer (6 residues) :: 12-17
++ ep2 (11 residues) :: 18-28
++ myoglobin
+  + nterm (3 residues) :: 29-31
+  + aaloop-begin-end (2 residue) :: 74-75
+  + cterm (4 residues) :: 178-181
++ hexhistidine (6 residues) :: 182-187
+
+** mb2nv1
++ input file: full_model_49923_1_0001.pdb
++ output file: mb2nv1_min2_roschi.pdb
++ Potential energy: -11593.166942
++ Gradient norm: 86.176114
++ Updated 2836 atoms.
++ RMSD: 0.104173
+
+
+** mb2nv2
++ input file: full_model_49923_2_0001.pdb
++ output file: mb2nv2_min2_roschi.pdb
++ Potential energy: -11472.191549
++ Gradient norm: 84.026969
++ Updated 2836 atoms.
++ RMSD: 0.104151
+
+** mb2nv3
++ input file: full_model_49923_3_0001.pdb
++ output file: mb2nv3_min2_roschi.pdb
++ Potential energy: -10986.566009
++ Gradient norm: 127.321825
++ Updated 2836 atoms.
++ RMSD: 0.115733
+
+** mb2nv4
++ input file: full_model_49923_4_0001.pdb
++ output file: mb2nv4_min2_roschi.pdb
++ Potential energy: -11226.194958
++ Gradient norm: 88.776423
++ Updated 2835 atoms.
++ RMSD: 0.100117
+
+
+** mb2nv5
++ input file: full_model_49923_5_0001.pdb
++ output file: mb2nv5_min2_roschi.pdb
++ Potential energy: -11200.833258
++ Gradient norm: 131.544210
++ Updated 2836 atoms.
++ RMSD: 0.118864
+
